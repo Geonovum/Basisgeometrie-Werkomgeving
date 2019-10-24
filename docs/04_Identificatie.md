@@ -1,11 +1,11 @@
-# Identificatie
+## Identificatie
 
 Dit hoofdstuk beschrijft de identificatie van de
 dataspecificatie. In onderstaande overzicht is de beschrijvende informatie
 opgenomen van de dataspecificatie
 
 
-<table style="width: 100%" cellpadding="10" border="1">
+<table style="width: 100%;cellpadding=10;border=1">
 	<col width="25%">
 	<col width="75%">
 	<tr>
@@ -23,7 +23,7 @@ opgenomen van de dataspecificatie
   en heeft geen inhoudelijke attributen.</td>
 	</tr>
 	<tr>
-		<td valign="top"><b>Onderwerpcategorieën</b></td>
+		<td valign="top"><b>OnderwerpcategorieÃ«n</b></td>
 		<td valign="top">Algemene
   toepassing van geometrie zonder domeininformatie.</td>
 	</tr>
@@ -41,8 +41,8 @@ opgenomen van de dataspecificatie
 		<td valign="top"><b>Aanvullende informatie</b> [optioneel]</td>
 		<td valign="top">Deze
   versie is ontwikkeld voor de toepassing binnen het informatiemodel voor de
-  omgevingswet (IMOW) en het daaraan gerelateerde informatiemodel voor officiële
-  publicaties (IMOP). Doel is het gezamenlijk delen van geometrieën en geometriebestanden.
+  omgevingswet (IMOW) en het daaraan gerelateerde informatiemodel voor officiÃ«le
+  publicaties (IMOP). Doel is het gezamenlijk delen van geometrieÃ«n en geometriebestanden.
   Dit basisgeometrie model is gepubliceerd als neutraal model dat ook door
   andere informatiemodellen gebruikt kan worden</td>
 	</tr>
