@@ -9,3 +9,5 @@ gedeeld worden door vanuit verschillende informatiemodellen naar dezelfde
 geometrie te verwijzen. Als specifieke toepassing is dit ontwikkeld binnen het
 DSO project om geometrieën gezamenlijk te delen tussen het informatiemodel IMOW
 (Omgevingswet) en IMOP (Officiële Publicaties).
+
+URL Werkversie https://geonovum.github.io/Basisgeometrie
