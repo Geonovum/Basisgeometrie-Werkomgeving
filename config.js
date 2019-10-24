@@ -10,6 +10,21 @@ var respecConfig = {
       url: "https://www.geonovum.nl",
     }  
   ],
+  authors: 
+  [
+    {
+      name:       "Paul Janssen",
+      company:    "Geonovum",
+      companyURL: "https://www.geonovum.nl"
+    }, 
+    {
+      name:       "Wilko Quak",
+      company:    "KOOP",
+      companyURL: "https://www.koopoverheid.nl"
+    },
+   
+  ],
+  
   shortName: "basisgeometrie",
   pubDomain: "nen3610",
   github: "https://github.com/geonovum/Basisgeometrie",
