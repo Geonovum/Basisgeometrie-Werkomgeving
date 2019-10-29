@@ -17,9 +17,10 @@ is de geometrie van het object. Indien er behoefte is om uit het oogpunt van
 voorkomen van redundantie de modellen te normaliseren vanuit het geometrie
 perspectief is een centraal model voor alleen geometrie een optie.
 
-Dit model Basisgeometrie biedt hiervoor een gestandaardiseerd oplossing. Het
-model beschrijft een geometrie als een apart objecttype dat als een eigenschap
-gebruikt kan worden door een objecttype van een ander informatiemodel. Doel is
-het gezamenlijk kunnen gebruiken van een geometrie of geometriebestanden door
-verschillende informatiemodellen. Het objecttype Geometrie in Basisgeometrie
-bevat alleen een attribuut geometrie en heeft geen inhoudelijke attributen.
+Dit model Basisgeometrie biedt hiervoor een gestandaardiseerde oplossing. Het
+model beschrijft een geometrie als een apart objecttype dat vervolgens als een
+eigenschap gebruikt kan worden door een objecttype van een ander
+informatiemodel. Doel is het gezamenlijk kunnen gebruiken van een geometrie of
+geometriebestanden door verschillende informatiemodellen. Het objecttype
+Geometrie in Basisgeometrie bevat alleen een attribuut geometrie en heeft geen
+inhoudelijke attributen.
