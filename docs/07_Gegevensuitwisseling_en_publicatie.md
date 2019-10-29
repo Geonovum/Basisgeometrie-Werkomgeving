@@ -14,7 +14,7 @@ De volgende encoding formaten zijn besckibaar
 
 ### GML
 
-Beschikbaar GML applicatieschema Basisgeometrie.xsd gepubliceerd op:
+Beschikbaar GML applicatieschema Basisgeometrie.xsd gepubliceerd op: TODO
 
 Nadere specificaties:
 
@@ -32,11 +32,11 @@ specificatie. Elke geometrie (GML) krijgt daarom een \<gml:id\>. Dit gml:id
 heeft geen informatiewaarde maar is nodig om interne en externe referenties te
 realiseren voor geo-toepassingen.
 
- Invulinstructie: de in een GML-bestand opgenomen geo:id is een globaal unieke
-identifier (GUID). De losse ID’s van de bijbehorende gml:id’s worden gevuld op
-basis van het geo:id inclusief een prefix van \<id-\> en na het geo:id komt er
-nog een volgnummer. In de onderstaande afbeelding wordt weergeven hoe dit er
-uitziet (tevens is dit te zien in een GML fragment).
+**Invulinstructie:** de in een GML-bestand opgenomen geo:id is een globaal
+unieke identifier (GUID). De losse ID’s van de bijbehorende gml:id’s worden
+gevuld op basis van het geo:id inclusief een prefix van \<id-\> en na het geo:id
+komt er nog een volgnummer. In de onderstaande afbeelding wordt weergeven hoe
+dit er uitziet (tevens is dit te zien in een GML fragment).
 
 ![](media/aceb9310048abdf04a41f79f8a871139.png)
 
