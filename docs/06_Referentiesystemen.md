@@ -4,10 +4,10 @@ Referentiesystemen
 Ruimtelijkreferentiesysteem
 ---------------------------
 
-Dit is te bepalen door het informatiemodel of de modellen die gebruik maken van
+Dit wordt bepaald door het informatiemodel of de modellen die gebruik maken van
 Basisgeometrie.
 
-Voor de handliggende referentie systemen zijn:
+Voor de handliggende referentiesystemen zijn:
 
 -   RD stelsel: srsName="urn:ogc:def:crs:EPSG::28992"
 

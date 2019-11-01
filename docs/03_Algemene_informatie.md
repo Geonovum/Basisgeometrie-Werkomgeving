@@ -12,8 +12,8 @@ Beide modellen koppelen andere informatie aan dezelfde geometrie. Door de
 geometrie apart te modelleren, los van de inhoudelijke informatie, ontstaan
 zelfstandige geometrie objecten.
 
-Vanuit de domeinmodellen kan een inhoudelijke informatie al dan niet via een
-klasse locatie door een associatie aan een geometrie worden gekoppeld. Ten
+Vanuit de domeinmodellen kan inhoudelijke informatie bijvoorbeeld via een
+klasse genaamd locatie door een associatie aan een geometrie worden gekoppeld. Ten
 opzichte van het refererende objecttype gedraagt de geometrie zich als een
 eigenschap.
 

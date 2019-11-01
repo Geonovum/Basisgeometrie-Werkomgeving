@@ -8,7 +8,7 @@ Dit hoofdstuk beschrijft de identificatie van de dataspecificatie. In onderstaan
 	<col width="75%">
 	<tr>
 		<td valign="top"><b>Titel</b></td>
-		<td valign="top">IMVG - Dataspecificatie Informatiemodel Vastgoedgebruik</td>
+		<td valign="top">Basisgeometrie</td>
 	</tr>
 	<tr>
 		<td valign="top"><b>Samenvatting</b></td>
@@ -29,7 +29,7 @@ Dit hoofdstuk beschrijft de identificatie van de dataspecificatie. In onderstaan
 	</tr>
 	<tr>
 		<td valign="top"><b>Doel</b> [optioneel]</td>
-		<td valign="top">DBeschrijving
+		<td valign="top">Beschrijving
   van het geometriemodel voor koppeling van geometrie als eigenschap aan een
   inhoudelijk objecttype uit een ander informatiemodel.</td>
 	</tr>
