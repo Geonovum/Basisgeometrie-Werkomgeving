@@ -47,3 +47,18 @@ aan de geometrie. De volgende regels zijn van toepassing voor de verdere ID’s:
 |-----------------------------|--------------------------------|-------------------------------------------|
 | gml:id van Geometrie-object | GUID                           | 2ed9cfaf-8ef5-43ee-b3a2-0d3b8820c39c      |
 | gml:id van geometrietype    | “id-”+ GUID + “-” + volgnummer | id-2ed9cfaf-8ef5-43ee-b3a2-0d3b8820c39c-1 |
+
+**Nauwkeurigheid van coördinaten.**
+
+De nauwkeurigheid van de coördinaten opgenomen bij een GML geometrie moet
+minstens de nauwkeurigheid realizeren die vermeld wordt in het informatiemodel
+of bijgeleverde inwinningseisen. Meestal is het aantal decimalen dat in software
+standaard wordt opgeleverd groter. Deze decimalen hebben dan geen betekenis
+meer. Om te voorkomen dat er te grote databestanden ontstaat wordt aanbevolen de
+coordinaten af te ronden op 3 millimeter. Dit komt overeen met 3 decimalen.
+
+**Aanbeveling**
+
+Nauwkeurigheid van coördinaten is 3 decimalen. Alles wat nauwkeuriger is wordt
+afgerond op deze nauwkeurigheid (3 decimalen). 0.0015 -\> 0.002; 0.0014 -\>
+0.001.
