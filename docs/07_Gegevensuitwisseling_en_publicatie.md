@@ -50,15 +50,25 @@ aan de geometrie. De volgende regels zijn van toepassing voor de verdere ID’s:
 
 **Nauwkeurigheid van coördinaten.**
 
-De nauwkeurigheid van de coördinaten opgenomen bij een GML geometrie moet
-minstens de nauwkeurigheid realizeren die vermeld wordt in het informatiemodel
-of bijgeleverde inwinningseisen. Meestal is het aantal decimalen dat in software
+De nauwkeurigheid van de coördinaten opgenomen bij een geometrie moet minstens
+de nauwkeurigheid realizeren die vermeld wordt in het informatiemodel of
+bijgeleverde inwinningseisen. Meestal is het aantal decimalen dat in software
 standaard wordt opgeleverd groter. Deze decimalen hebben dan geen betekenis
 meer. Om te voorkomen dat er te grote databestanden ontstaat wordt aanbevolen de
-coordinaten af te ronden op 3 millimeter. Dit komt overeen met 3 decimalen.
+coordinaten af te ronden op 1 millimeter of het equivalent daarvan in graden.
 
-**Aanbeveling**
+**Aanbeveling:**
 
-Nauwkeurigheid van coördinaten is 3 decimalen. Alles wat nauwkeuriger is wordt
-afgerond op deze nauwkeurigheid (3 decimalen). 0.0015 -\> 0.002; 0.0014 -\>
+Coordinaten opgenomen bij een geometrie worden standaard uitgewisseld met een
+getalsnauwkeurigheid van 1 mm of het equivalent daarvan in graden. Voor RD,NAP
+en ETRS89 komt dat overeen met de volgende nauwkeurigheden:
+
+RD in meters 3 decimalen (1 mm);  
+NAP-hoogte in meters 3 decimalen (1 mm);  
+ETRS89-breedte in graden 8 decimalen (1,1 mm);  
+ETRS89-lengte in graden 8 decimalen (0,7 mm);  
+ETRS89-hoogte in meters 3 decimalen (1 mm).
+
+Alles wat nauwkeuriger is wordt afgerond op deze nauwkeurigheid van 3 of 8
+decimalen. Afronding is volgens de volgende regel 0.0015 -\> 0.002; 0.0014 -\>
 0.001.
