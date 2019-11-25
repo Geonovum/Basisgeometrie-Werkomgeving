@@ -18,19 +18,24 @@ Beschikbaar GML applicatieschema Basisgeometrie.xsd gepubliceerd op: TODO
 
 Nadere specificaties:
 
-GML versie: GML 3.2.1 – SF-2
+**GML versie en profiel:** GML 3.2.1 – SF-0.  
+Simple features profile 0 is gekozen omdat de inhoud van dit model geen
+constructies heeft die complexer zijn dan SF-0. Voor geometrietypen is er tussen
+SF-0, SF-1 en SF-2 geen verschil. Over de data gekoppeld aan dit geometriemodel
+wordt niets gezegd, die hebben hun eigen comlexiteitseisen.
 
-Het is verplicht om de srsName in te vullen. Invulinstructie:
+**Coordinaatrefrentiestelsel:** Het is verplicht om de srsName in te vullen.
+Invulinstructie:
 
 -   Als gekozen voor RD stelsel: srsName="urn:ogc:def:crs:EPSG::28992"
 
 -   Als gekozen voor ETRS89: zie ETRS89 specificatie.
 
-Voor implementatie in GML zijn er aanvullende specificaties als het gaat om het
-invullen van de (verplichte) gml:id. Dit veld is verplicht vanwege de GML 3.2.1.
-specificatie. Elke geometrie (GML) krijgt daarom een \<gml:id\>. Dit gml:id
-heeft geen informatiewaarde maar is nodig om interne en externe referenties te
-realiseren voor geo-toepassingen.
+**Aanvullende specificaties:** Voor implementatie in GML zijn er aanvullende
+specificaties als het gaat om het invullen van de (verplichte) gml:id. Dit veld
+is verplicht vanwege de GML 3.2.1. specificatie. Elke geometrie (GML) krijgt
+daarom een \<gml:id\>. Dit gml:id heeft geen informatiewaarde maar is nodig om
+interne en externe referenties te realiseren voor geo-toepassingen.
 
 **Invulinstructie:** de in een GML-bestand opgenomen geo:id is een globaal
 unieke identifier (GUID). De losse ID’s van de bijbehorende gml:id’s worden
