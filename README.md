@@ -10,4 +10,4 @@ geometrie te verwijzen. Als specifieke toepassing is dit ontwikkeld binnen het
 DSO project om geometrieën gezamenlijk te delen tussen het informatiemodel IMOW
 (Omgevingswet) en IMOP (Officiële Publicaties).
 
-URL Werkversie https://geonovum.github.io/Basisgeometrie
+URL Werkversie https://geonovum.github.io/Basisgeometrie-Werkomgeving
