@@ -10,19 +10,20 @@ informatiemodel dat de Basisgeometrie toepast.
 Formaten (encodings)
 --------------------
 
-De volgende encoding formaten zijn besckibaar
+De volgende encodingformaten zijn beschikbaar:
 
 ### GML
 
-Beschikbaar GML applicatieschema Basisgeometrie.xsd gepubliceerd op: TODO
+Beschikbaar GML applicatieschema Basisgeometrie.xsd gepubliceerd op:
+<https://register.geostandaarden.nl/gmlapplicatieschema/basisgeometrie/>
 
-Nadere specificaties:
+**Nadere specificaties:**
 
 **GML versie en profiel:** GML 3.2.1 – SF-0.  
 Simple features profile 0 is gekozen omdat de inhoud van dit model geen
 constructies heeft die complexer zijn dan SF-0. Voor geometrietypen is er tussen
 SF-0, SF-1 en SF-2 geen verschil. Over de data gekoppeld aan dit geometriemodel
-wordt niets gezegd, die hebben hun eigen comlexiteitseisen.
+wordt niets gezegd. Die hebben hun eigen comlexiteitseisen.
 
 **Coordinaatrefrentiestelsel:** Het is verplicht om de srsName in te vullen.
 Invulinstructie:
@@ -31,11 +32,11 @@ Invulinstructie:
 
 -   Als gekozen voor ETRS89: zie ETRS89 specificatie.
 
-**Aanvullende specificaties:** Voor implementatie in GML zijn er aanvullende
-specificaties als het gaat om het invullen van de (verplichte) gml:id. Dit veld
-is verplicht vanwege de GML 3.2.1. specificatie. Elke geometrie (GML) krijgt
-daarom een \<gml:id\>. Dit gml:id heeft geen informatiewaarde maar is nodig om
-interne en externe referenties te realiseren voor geo-toepassingen.
+**GML:id:** Voor implementatie in GML zijn er aanvullende specificaties als het
+gaat om het invullen van de (verplichte) gml:id. Dit veld is verplicht vanwege
+de GML 3.2.1. specificatie. Elke geometrie (GML) krijgt daarom een \<gml:id\>.
+Dit gml:id heeft geen informatiewaarde maar is nodig om interne en externe
+referenties te realiseren voor geo-toepassingen.
 
 **Invulinstructie:** de in een GML-bestand opgenomen geo:id is een globaal
 unieke identifier (GUID). De losse ID’s van de bijbehorende gml:id’s worden
@@ -57,11 +58,11 @@ Nauwkeurigheid van coördinaten.
 -------------------------------
 
 De nauwkeurigheid van de coördinaten opgenomen bij een geometrie moet minstens
-de nauwkeurigheid realizeren die vermeld wordt in het informatiemodel of
+de nauwkeurigheid realiseren die vermeld wordt in het informatiemodel of
 bijgeleverde inwinningseisen. Meestal is het aantal decimalen dat in software
 standaard wordt opgeleverd groter. Deze decimalen hebben dan geen betekenis
-meer. Om te voorkomen dat er te grote databestanden ontstaat wordt aanbevolen de
-coordinaten af te ronden op 1 millimeter of het equivalent daarvan in graden.
+meer. Om te voorkomen dat er te grote databestanden ontstaan wordt aanbevolen de
+coördinaten af te ronden op 1 millimeter of het equivalent daarvan in graden.
 
 **Aanbeveling:**
 
