@@ -38,7 +38,7 @@ Dit hoofdstuk beschrijft de identificatie van de dataspecificatie. In onderstaan
 		<td valign="top">Deze
   versie is ontwikkeld voor de toepassing binnen het informatiemodel voor de
   omgevingswet (IMOW) en het daaraan gerelateerde informatiemodel voor officiele publicaties (IMOP). Doel is het gezamenlijk
-  delen van geometrieen en geometriebestanden. Dit basisgeometrie model is gepubliceerd als neutraal model dat ook door andere
+  delen van geometrieën en geometriebestanden. Dit basisgeometrie model is gepubliceerd als inhoud-neutraal model dat ook door andere
   informatiemodellen gebruikt kan worden</td>
 	</tr>
 </table>
