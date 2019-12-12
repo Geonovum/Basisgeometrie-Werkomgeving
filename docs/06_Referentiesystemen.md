@@ -1,19 +1,21 @@
 Referentiesystemen
 ==================
 
-Ruimtelijkreferentiesysteem
+Coördinaatreferentiesysteem
 ---------------------------
 
 Dit wordt bepaald door het informatiemodel of de modellen die gebruik maken van
 Basisgeometrie.
 
-Voor de handliggende referentiesystemen zijn:
+Voor de handliggende coördinaatreferentiesystemen zijn:
 
--   RD stelsel: srsName="urn:ogc:def:crs:EPSG::28992"
+-   RD stelsel: EPSG:28992
+
+-	RD-NAP: EPSG:7415
 
 -   ETRS89: zie ETRS89 specificatie
 
-nog 3D toevoegen
+Voor het definiëren van de coördinaatreferentiesystemen kunnen de EPSG-codes (European Petroleum Survey Group) worden gebruikt.
 
 Tijdreferentiesysteem
 ---------------------

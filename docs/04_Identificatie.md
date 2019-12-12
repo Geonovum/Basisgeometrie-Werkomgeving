@@ -28,13 +28,13 @@ Dit hoofdstuk beschrijft de identificatie van de dataspecificatie. In onderstaan
   van toepassing.</td>
 	</tr>
 	<tr>
-		<td valign="top"><b>Doel</b> [optioneel]</td>
+		<td valign="top"><b>Doel</b></td>
 		<td valign="top">Beschrijving
   van het geometriemodel voor koppeling van geometrie als eigenschap aan een
   inhoudelijk objecttype uit een ander informatiemodel.</td>
 	</tr>
 	<tr>
-		<td valign="top"><b>Aanvullende informatie</b> [optioneel]</td>
+		<td valign="top"><b>Aanvullende informatie</b></td>
 		<td valign="top">Deze
   versie is ontwikkeld voor de toepassing binnen het informatiemodel voor de
   omgevingswet (IMOW) en het daaraan gerelateerde informatiemodel voor officiele publicaties (IMOP). Doel is het gezamenlijk
