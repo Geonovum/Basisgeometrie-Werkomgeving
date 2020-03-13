@@ -36,7 +36,7 @@ Invulinstructie:
 
 -   ETRS89 (3D): srsName="urn:ogc:def:crs:EPSG::4937"
 
--   ETRS89 + EVRF2000 (NAP)(3D): srsName="urn:ogc:def:crs:EPSG::7409"
+-   ETRS89 + EVRF2007 (NAP)(3D): srsName="urn:ogc:def:crs:EPSG:: 7423"
 
 **GML:id:** Voor implementatie in GML zijn er aanvullende specificaties als het
 gaat om het invullen van de (verplichte) gml:id. Dit veld is verplicht vanwege

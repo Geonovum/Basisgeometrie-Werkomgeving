@@ -21,7 +21,7 @@ Voor de handliggende coördinaatreferentiesystemen zijn:
 -   ETRS89 (3D): EPSG:4937 (lengte, breedte in graden, hoogte in meters tov
     ellipsoide)
 
--   ETRS89 + EVRF2000 (3D): EPSG:7409 (lengte, breedte in graden, hoogte in
+-   ETRS89 + EVRF2007 (3D): EPSG:7423 (lengte, breedte in graden, hoogte in
     meters tov NAP)
 
 Tijdreferentiesysteem
