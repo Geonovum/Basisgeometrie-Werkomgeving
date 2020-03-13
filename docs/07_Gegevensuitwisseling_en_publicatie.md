@@ -14,8 +14,8 @@ De volgende encodingformaten zijn beschikbaar:
 
 ### GML
 
-Beschikbaar GML applicatieschema Basisgeometrie.xsd gepubliceerd op: <a href="https://register.geostandaarden.nl/gmlapplicatieschema/basisgeometrie/">https://register.geostandaarden.nl/gmlapplicatieschema/basisgeometrie/</a>
-
+Beschikbaar GML applicatieschema Basisgeometrie.xsd gepubliceerd op:
+https://register.geostandaarden.nl/gmlapplicatieschema/basisgeometrie/
 
 **Nadere specificaties:**
 
@@ -28,9 +28,15 @@ wordt niets gezegd. Die hebben hun eigen comlexiteitseisen.
 **Coordinaatrefrentiestelsel:** Het is verplicht om de srsName in te vullen.
 Invulinstructie:
 
--   Als gekozen voor RD stelsel: srsName="urn:ogc:def:crs:EPSG::28992"
+-   RD stelsel (2D): srsName="urn:ogc:def:crs:EPSG::28992"
 
--   Als gekozen voor ETRS89: zie ETRS89 specificatie.
+-   RD-NAP (3D): srsName="urn:ogc:def:crs:EPSG::7415"
+
+-   ETRS89 (2D): srsName="urn:ogc:def:crs:EPSG::4258"
+
+-   ETRS89 (3D): srsName="urn:ogc:def:crs:EPSG::4937"
+
+-   ETRS89 + EVRF2000 (NAP)(3D): srsName="urn:ogc:def:crs:EPSG::7409"
 
 **GML:id:** Voor implementatie in GML zijn er aanvullende specificaties als het
 gaat om het invullen van de (verplichte) gml:id. Dit veld is verplicht vanwege
