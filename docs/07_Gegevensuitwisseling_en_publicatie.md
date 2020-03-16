@@ -19,7 +19,7 @@ https://register.geostandaarden.nl/gmlapplicatieschema/basisgeometrie/
 
 **Nadere specificaties:**
 
-**GML versie en profiel:** GML 3.2.1 – SF-0.  
+**GML versie en profiel:** GML 3.2.2 – SF-0.  
 Simple features profile 0 is gekozen omdat de inhoud van dit model geen
 constructies heeft die complexer zijn dan SF-0. Voor geometrietypen is er tussen
 SF-0, SF-1 en SF-2 geen verschil. Over de data gekoppeld aan dit geometriemodel
@@ -39,26 +39,33 @@ Invulinstructie:
 -   ETRS89 + EVRF2007 (NAP)(3D): srsName="urn:ogc:def:crs:EPSG:: 7423"
 
 **GML:id:** Voor implementatie in GML zijn er aanvullende specificaties als het
-gaat om het invullen van de (verplichte) gml:id. Dit veld is verplicht vanwege
-de GML 3.2.1. specificatie. Elke geometrie (GML) krijgt daarom een \<gml:id\>.
-Dit gml:id heeft geen informatiewaarde maar is nodig om interne en externe
-referenties te realiseren voor geo-toepassingen.
+gaat om het invullen van de \<gml:id\>. Voor de GML 3.2.1 was dit een verplicht
+element maar voor GML 3.2.2 is dit optioneel. Voor de implementatie van de
+verwijzing naar de geometrie-objecten moet de \<gml:id\> voor het
+geometrie-object ingevuld zijn. Elk geometrie-object krijgt daarom een
+\<gml:id\>. Voor het geometrietype zelf geldt dat de \<gml:id\> op het hoogste
+niveau van de geometrie van het type is ingevuld. De \<gml:id\> heeft geen
+informatiewaarde maar is nodig om interne en externe referenties te realiseren
+voor geo-toepassingen.
 
 **Invulinstructie:** de in een GML-bestand opgenomen geo:id is een globaal
 unieke identifier (GUID). De losse ID’s van de bijbehorende gml:id’s worden
-gevuld op basis van het geo:id inclusief een prefix van \<id-\> en na het geo:id
-komt er nog een volgnummer. In de onderstaande afbeelding wordt weergeven hoe
-dit er uitziet (tevens is dit te zien in een GML fragment).
+gevuld op basis van het geo:id inclusief een prefix van \<id-\>. In de
+onderstaande afbeelding wordt weergeven hoe dit er uitziet (tevens is dit te
+zien in een GML fragment).
+
+VOORBEELD NOG AANPASSEN
 
 ![](media/aceb9310048abdf04a41f79f8a871139.png)
 
 Zie in de bovenstaande afbeelding dat geo:id de GUID bevat die meegegeven wordt
 aan de geometrie. De volgende regels zijn van toepassing voor de verdere ID’s:
 
-| **element**                 | **Regel voor ID**              | **voorbeeld**                             |
-|-----------------------------|--------------------------------|-------------------------------------------|
-| gml:id van Geometrie-object | GUID                           | 2ed9cfaf-8ef5-43ee-b3a2-0d3b8820c39c      |
-| gml:id van geometrietype    | “id-”+ GUID + “-” + volgnummer | id-2ed9cfaf-8ef5-43ee-b3a2-0d3b8820c39c-1 |
+| **element**                 | **Regel voor ID**   | **voorbeeld**                              |
+|-----------------------------|---------------------|--------------------------------------------|
+| geo:id van Geometrie-object | GUID                | 2ed9cfaf-8ef5-43ee-b3a2-0d3b8820c39c       |
+| gml:id van Geometrie-object | “id-”+ GUID + “-xx” | id-2ed9cfaf-8ef5-43ee-b3a2-0d3b8820c39c-xx |
+| gml:id van geometrietype    | “id-”+ GUID         | id-2ed9cfaf-8ef5-43ee-b3a2-0d3b8820c39c    |
 
 Nauwkeurigheid van coördinaten.
 -------------------------------
