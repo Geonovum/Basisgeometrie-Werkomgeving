@@ -54,9 +54,7 @@ gevuld op basis van het geo:id inclusief een prefix van \<id-\>. In de
 onderstaande afbeelding wordt weergeven hoe dit er uitziet (tevens is dit te
 zien in een GML fragment).
 
-VOORBEELD NOG AANPASSEN
-
-![](media/aceb9310048abdf04a41f79f8a871139.png)
+![](media/21a849bfe37255135645919cfc441297.png)
 
 Zie in de bovenstaande afbeelding dat geo:id de GUID bevat die meegegeven wordt
 aan de geometrie. De volgende regels zijn van toepassing voor de verdere ID’s:
