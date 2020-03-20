@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <geo:FeatureCollectionGeometrie xmlns:geo="http://www.geostandaarden.nl/basisgeometrie/v20190901" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.geostandaarden.nl/basisgeometrie/v20190901 https://register.geostandaarden.nl/gmlapplicatieschema/basisgeometrie/v20190901/basisgeometrie.xsd">
+
+
 	<geo:featureMember>
 		<geo:Geometrie gml:id="id-2ed9cfaf-8ef5-43ee-b3a2-0d3b8820c39c-xx">
 			<geo:id>2ed9cfaf-8ef5-43ee-b3a2-0d3b8820c39c</geo:id>
@@ -54,4 +56,7 @@
 			</geo:geometrie>
 		</geo:Geometrie>
 	</geo:featureMember>
+	
+	
+	
 </geo:FeatureCollectionGeometrie>
