@@ -4,8 +4,7 @@ Referentiesystemen
 Coördinaatreferentiesysteem
 ---------------------------
 
-Dit wordt bepaald door het informatiemodel of de modellen die gebruik maken van
-Basisgeometrie.
+Het coördinaatreferentiesysteem wordt bepaald door het informatiemodel of de modellen die gebruik maken van Basisgeometrie.
 
 Voor het definiëren van de coördinaatreferentiesystemen kunnen de EPSG-codes
 (European Petroleum Survey Group) worden gebruikt.

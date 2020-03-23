@@ -15,12 +15,12 @@ Dit hoofdstuk beschrijft de identificatie van de dataspecificatie. In onderstaan
 		<td valign="top">Het informatiemodel
   Basisgeometrie beschrijft een geometrie als een apart objecttype dat als een eigenschap gebruikt kan worden door een objecttype van een ander
   informatiemodel. Doel is het gezamenlijk kunnen gebruiken van een geometrie of geometriebestanden door verschillende informatiemodellen. Het objecttype
-  Geometrie in Basisgeometrie bevat alleen een attribuut geometrie en heeft geen inhoudelijke attributen</td>
+  Geometrie in Basisgeometrie bevat alleen een attribuut geometrie en heeft geen inhoudelijke attributen.</td>
 	</tr>
 	<tr>
 		<td valign="top"><b>Onderwerpcategorieën</b></td>
 		<td valign="top">Algemene
-  toepassing van geometrie zonder domeininformatie</td>
+  toepassing van geometrie zonder domeininformatie.</td>
 	</tr>
 	<tr>
 		<td valign="top"><b>Geografische beschrijving</b></td>
@@ -39,6 +39,6 @@ Dit hoofdstuk beschrijft de identificatie van de dataspecificatie. In onderstaan
   versie is ontwikkeld voor de toepassing binnen het informatiemodel voor de
   omgevingswet (IMOW) en het daaraan gerelateerde informatiemodel voor officiele publicaties (IMOP). Doel is het gezamenlijk
   delen van geometrieën en geometriebestanden. Dit basisgeometrie model is gepubliceerd als inhoud-neutraal model dat ook door andere
-  informatiemodellen gebruikt kan worden</td>
+  informatiemodellen gebruikt kan worden.</td>
 	</tr>
 </table>

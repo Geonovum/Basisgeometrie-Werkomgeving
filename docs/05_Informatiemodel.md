@@ -13,7 +13,7 @@ UML diagram
 
 Het model Basisgeometrie bevat maar één objecttype: Geometrie.
 
-![](media/08c2410e547ea84dffd54de92207e157.png)
+![](media/Basisgeometrie.png)
 
 Objectcatalogus
 ---------------
@@ -43,4 +43,4 @@ geometrie objecttype.
 De geometrie is daarbij een eigenschap van de locatie-objecten uit de twee
 domeinmodellen
 
-![](media/993851cfd8bf71ccce3586e572986592.png)
+![](media/Voorbeeld.png)
