@@ -52,12 +52,11 @@ niveau van de geometrie van het type verplicht is ingevuld.
 
 **Invulinstructie:** de in een GML-bestand opgenomen geo:id is een globaal
 unieke identifier (GUID). De losse ID’s van de bijbehorende gml:id’s worden
-gevuld op basis van het geo:id inclusief een prefix van \<id-\>. In de
-onderstaand GML-fragment wordt weergeven hoe dit er uitziet.
+gevuld op basis van het geo:id inclusief een prefix van \<id-\>. In onderstaand GML-fragment wordt weergeven hoe dit er uitziet.
 
 ![](media/gmlfragment.png)
 
-Zie in  bovenstaande fragment dat geo:id de GUID bevat die meegegeven wordt
+Zie in bovenstaande fragment dat geo:id de GUID bevat die meegegeven wordt
 aan de geometrie. De volgende regels zijn van toepassing voor de verdere ID’s:
 
 | **element**                 | **Regel voor ID**   | **voorbeeld**                              |
