@@ -38,7 +38,7 @@ Invulinstructie:
 
 -   ETRS89 + EVRF2007 (NAP)(3D): srsName="urn:ogc:def:crs:EPSG::7423"
 
-De beschrijving van de respectivelijke EPSG codes zijn te vinden onder de url's met het format " www.opengis.net/def/crs/EPSG/0/epsgcode". Bijvoorbeeld: http://www.opengis.net/def/crs/EPSG/0/28992
+De beschrijving van de respectivelijke EPSG codes zijn te vinden onder de url's met het format "www.opengis.net/def/crs/EPSG/0/epsgcode". Bijvoorbeeld: http://www.opengis.net/def/crs/EPSG/0/28992
 
 **GML:id:** Voor implementatie in GML zijn er aanvullende specificaties als het
 gaat om het invullen van de \<gml:id\>. De \<gml:id\> heeft geen
@@ -57,7 +57,7 @@ onderstaand GML-fragment wordt weergeven hoe dit er uitziet.
 
 ![](media/gmlfragment.png)
 
-Zie in de bovenstaande fragment dat geo:id de GUID bevat die meegegeven wordt
+Zie in  bovenstaande fragment dat geo:id de GUID bevat die meegegeven wordt
 aan de geometrie. De volgende regels zijn van toepassing voor de verdere ID’s:
 
 | **element**                 | **Regel voor ID**   | **voorbeeld**                              |
