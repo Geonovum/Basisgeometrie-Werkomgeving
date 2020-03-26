@@ -88,6 +88,6 @@ ETRS89-lengte in graden 8 decimalen (0,7 mm);
 ETRS89-hoogte in meters 3 decimalen (1 mm).
 
 Alles wat nauwkeuriger is wordt afgerond op deze nauwkeurigheid van 3 of 8
-decimalen. Afronding is volgens de volgende regel
-0.0015 -\> 0.002;
+decimalen. Afronding is volgens de volgende regel:  
+0.0015 -\> 0.002;  
 0.0014 -\> 0.001.
