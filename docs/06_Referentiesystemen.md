@@ -26,4 +26,4 @@ Voor de handliggende coördinaatreferentiesystemen zijn:
 Tijdreferentiesysteem
 ---------------------
 
-Niet van toepassing. Er zijn geen tijdsparameters opgenomen.
+Niet van toepassing. Er zijn geen tijdparameters opgenomen.
