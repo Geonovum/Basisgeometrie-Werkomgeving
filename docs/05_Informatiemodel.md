@@ -41,6 +41,6 @@ en Domein B van uit een objecttype Locatie verwijzen naar een gemeenschappelijk
 geometrie objecttype.
 
 De geometrie is daarbij een eigenschap van de locatie-objecten uit de twee
-domeinmodellen
+domeinmodellen.
 
 ![](media/Voorbeeld.png)

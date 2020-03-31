@@ -38,21 +38,21 @@ Invulinstructie:
 
 -   ETRS89 + EVRF2007 (NAP)(3D): srsName="urn:ogc:def:crs:EPSG::7423"
 
-De beschrijving van de respectivelijke EPSG codes zijn te vinden onder de url's met het format  ht<span>tp://</span>ww<span>w</span>.opengis.net/def/crs/EPSG/0/epsgcode. Bijvoorbeeld: ht<span>tp://</span>ww<span>w</span>.opengis.net/def/crs/EPSG/0/28992
+De beschrijving van de respectivelijke EPSG codes zijn te vinden onder de url's met het format: "ht<span>tp://</span>ww<span>w</span>.opengis.net/def/crs/EPSG/0/""epsgcode". Bijvoorbeeld: http://www.opengis.net/def/crs/EPSG/0/28992
 
 **GML:id:** Voor implementatie in GML zijn er aanvullende specificaties als het
-gaat om het invullen van de \<gml:id\>. De \<gml:id\> heeft geen
+gaat om het invullen van de &lt;gml:id&gt;. De &lt;gml:id&gt; heeft geen
 informatiewaarde maar is nodig om interne en externe referenties te realiseren
 voor geo-toepassingen. Voor de GML 3.2.1 was dit een verplicht
 element maar voor GML 3.2.2 is dit optioneel. Voor de implementatie van de
-verwijzing naar de geometrie-objecten moet de \<gml:id\> voor het
+verwijzing naar de geometrie-objecten moet de &lt;gml:id&gt; voor het
 geometrie-object ingevuld zijn. Elk geometrie-object krijgt daarom een
-\<gml:id\>. Voor het geometrietype zelf geldt dat de \<gml:id\> op het hoogste
+&lt;gml:id&gt;. Voor het geometrietype zelf geldt dat de &lt;gml:id&gt; op het hoogste
 niveau van de geometrie van het type verplicht is ingevuld.
 
 **Invulinstructie:** de in een GML-bestand opgenomen geo:id is een globaal
 unieke identifier (GUID). De losse ID’s van de bijbehorende gml:id’s worden
-gevuld op basis van het geo:id inclusief een prefix van &lt;id-&gt; In onderstaand GML-fragment wordt weergeven hoe dit er uitziet.
+gevuld op basis van het geo:id inclusief een prefix van &lt;id-&gt;. In onderstaand GML-fragment wordt weergeven hoe dit er uitziet.
 
 ![](media/gmlfragment.png)
 
