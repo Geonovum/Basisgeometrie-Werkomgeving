@@ -38,7 +38,7 @@ Invulinstructie:
 
 -   ETRS89 + EVRF2007 (NAP)(3D): srsName="urn:ogc:def:crs:EPSG::7423"
 
-De beschrijving van de respectivelijke EPSG codes zijn te vinden onder de url's met het format  ht<span>tp://</span>ww<span>w</span>.opengis.net/def/crs/EPSG/0/epsgcode. Bijvoorbeeld: http://www.opengis.net/def/crs/EPSG/0/28992
+De beschrijving van de respectivelijke EPSG codes zijn te vinden onder de url's met het format  ht<span>tp://</span>ww<span>w</span>.opengis.net/def/crs/EPSG/0/epsgcode. Bijvoorbeeld: ht<span>tp://</span>ww<span>w</span>.opengis.net/def/crs/EPSG/0/28992
 
 **GML:id:** Voor implementatie in GML zijn er aanvullende specificaties als het
 gaat om het invullen van de \<gml:id\>. De \<gml:id\> heeft geen
