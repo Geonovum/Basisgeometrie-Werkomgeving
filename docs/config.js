@@ -1,8 +1,8 @@
 var respecConfig = {
-  specStatus: "GN-CV",
+  specStatus: "GN-VV",
   specType: "IM",
   //canonicalURI: "WV",
-  publishDate: "2020-03-26",
+  publishDate: "2020-03-31",
   maxTocLevel: 3,
   editors: [
     {
@@ -29,8 +29,8 @@ var respecConfig = {
   pubDomain: "nen3610",
   github: "https://github.com/geonovum/Basisgeometrie",
   format: "markdown",
-  //previousPublishDate: "2017-01-01",
-  //previousStatus: "GN-CV",
+  previousPublishDate: "2020-03-26",
+  previousmaturity: "CV",
   //localBiblio: {  }
    
 };
