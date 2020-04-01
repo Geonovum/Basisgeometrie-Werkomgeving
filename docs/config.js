@@ -38,23 +38,23 @@ var respecConfig =
     {
       name: "Paul Janssen",
       url: "https://www.geonovum.nl",
-    }  
+    }
   ],
   //-- de namen van de Author(s) ------------------------------------------------------
   //-- vul in: per Author: name:, company:, companyURL: -------------------------------
-   authors: 
+   authors:
   [
     {
       name:       "Paul Janssen",
       company:    "Geonovum",
       companyURL: "https://www.geonovum.nl"
-    }, 
+    },
     {
       name:       "Wilko Quak",
       company:    "KOOP",
       companyURL: "https://www.koopoverheid.nl"
     },
-   
+
   ],
   //-- shortName is verplicht! (komt in de URL: kies logische naam) --------------------
   shortName: "basisgeometrie", 	              // Wordt gebruikt in de document URL
