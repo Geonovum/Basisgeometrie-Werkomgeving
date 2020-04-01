@@ -73,11 +73,11 @@ var respecConfig =
   //pubDomain: "visu", 	            // Visualisatie
   //pubDomain: "wp", 	              // White Paper
   //-- Repositorynaam op GitHub -------------------------------------------------------
-  github: "https://github.com/Geonovum/basisgeometrie-Werkomgeving",
+  github: "https://github.com/Geonovum/Basisgeometrie-Werkomgeving",
   //-- Repositorynaam/issues op GitHub ------------------------------------------------
-  issueBase: "https://github.com/Geonovum/basisgeometrie-Werkomgeving/issues/",
+  issueBase: "https://github.com/Geonovum/Basisgeometrie-Werkomgeving/issues/",
   //-- edDraftURI: de URI van de werkversie van het document
-  edDraftURI: "https://geonovum.github.io/basisgeometrie-Werkomgeving",
+  edDraftURI: "https://geonovum.github.io/Basisgeometrie-Werkomgeving",
 
   //-- license: voor de geldende gebruiksvoorwaarden
   licence: "cc-by-nd",              //-- bronvermelding, geen afgeleide werken (default)
