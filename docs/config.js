@@ -78,7 +78,7 @@ var respecConfig =
   issueBase: "https://github.com/Geonovum/basisgeometrie-werkomgeving/issues/",
   //-- edDraftURI: de URI van de werkversie van het document
   edDraftURI: "https://geonovum.github.io/basisgeometrie-werkomgeving/tree/master/docs",
-
+// of deze https://geonovum.github.io/basisgeometrie-werkomgeving ????
   //-- license: voor de geldende gebruiksvoorwaarden
   licence: "cc-by-nd",              //-- bronvermelding, geen afgeleide werken (default)
   // licence: "cc0",                //-- Public Domain Dedication
