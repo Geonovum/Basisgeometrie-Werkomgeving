@@ -43,11 +43,27 @@ De beschrijving van de respectivelijke EPSG codes zijn te vinden onder de url's 
 **GML:id:** Voor implementatie in GML zijn er aanvullende specificaties als het
 gaat om het invullen van de &lt;gml:id&gt;. De &lt;gml:id&gt; heeft geen
 informatiewaarde maar is nodig om interne en externe referenties te realiseren
-*voor gebruik binnen het gml formaat*. Voor de GML 3.2.1 was dit een verplicht
-element maar voor GML 3.2.2 is dit optioneel.
+voor geo-toepassingen. Voor de GML 3.2.1 was dit een verplicht
+element maar voor GML 3.2.2 is dit optioneel. Voor de implementatie van de
+verwijzing naar de geometrie-objecten moet de &lt;gml:id&gt; voor het
+geometrie-object ingevuld zijn. Elk geometrie-object krijgt daarom een
+&lt;gml:id&gt;. Voor het geometrietype zelf geldt dat de &lt;gml:id&gt; op het hoogste
+niveau van de geometrie van het type verplicht is ingevuld.
 
-**Invulinstructie:** Indien de optionele gml:id wordt toegepast dient deze globaal uniek te zijn en mag de waarde conform de gml specificaties alleen met een letter of een underscore beginnen.
+**Invulinstructie:** de in een GML-bestand opgenomen geo:id is een globaal
+unieke identifier (GUID). De losse ID’s van de bijbehorende gml:id’s worden
+gevuld op basis van het geo:id inclusief een prefix van &lt;id-&gt;. In onderstaand GML-fragment wordt weergeven hoe dit er uitziet.
 
+![](media/gmlfragment.png)
+
+Zie in bovenstaande fragment dat geo:id de GUID bevat die meegegeven wordt
+aan de geometrie. De volgende regels zijn van toepassing voor de verdere ID’s:
+
+| **element**                 | **Regel voor ID**   | **voorbeeld**                              |
+|-----------------------------|---------------------|--------------------------------------------|
+| geo:id van Geometrie-object | GUID                | 2ed9cfaf-8ef5-43ee-b3a2-0d3b8820c39c       |
+| gml:id van Geometrie-object | “id-”+ GUID + “-xx” | id-2ed9cfaf-8ef5-43ee-b3a2-0d3b8820c39c-xx |
+| gml:id van geometrietype    | “id-”+ GUID         | id-2ed9cfaf-8ef5-43ee-b3a2-0d3b8820c39c    |
 
 Nauwkeurigheid van coördinaten.
 -------------------------------
