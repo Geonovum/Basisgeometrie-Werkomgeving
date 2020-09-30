@@ -4,7 +4,9 @@ Gegevensuitwisseling en -publicatie
 Leveringsmedium
 ---------------
 
-Het medium waarmee de data worden geleverd is niet gedefinieerd op dit niveau. Het wordt bepaald door de toepassing van het informatiemodel dat de Basisgeometrie toepast.
+Het medium waarmee de data worden geleverd is niet gedefinieerd op dit niveau.
+Het wordt bepaald door de toepassing van het informatiemodel dat de
+Basisgeometrie toepast.
 
 Formaten (encodings)
 --------------------
@@ -24,7 +26,10 @@ constructies heeft die complexer zijn dan SF-0. Voor geometrietypen is er tussen
 SF-0, SF-1 en SF-2 geen verschil. Over de data gekoppeld aan dit geometriemodel
 wordt niets gezegd. Die hebben hun eigen comlexiteitseisen.
 
-**Coordinaatrefrentiestelsel:** Het is verplicht om de srsName in te vullen op het hoogste niveau van een geometrie. Dat betekent dat van een samengestelde geometrie, een multigeometrie, alleen op het niveau van de samenstelling de srsName verplicht is ingevuld. 
+**Coördinaatrefrentiestelsel:** Het is verplicht om de srsName in te vullen op
+het hoogste niveau van een geometrie. Dat betekent dat van een samengestelde
+geometrie, een multigeometrie, alleen op het niveau van de samenstelling de
+srsName verplicht is ingevuld.
 
 Invulinstructie:
 
@@ -38,7 +43,9 @@ Invulinstructie:
 
 -   ETRS89 + EVRF2007 (NAP)(3D): srsName="urn:ogc:def:crs:EPSG::7423"
 
-De beschrijving van de respectivelijke EPSG codes zijn te vinden onder de url's met het format: "ht<span>tp://</span>ww<span>w</span>.opengis.net/def/crs/EPSG/0/""epsgcode". Bijvoorbeeld: http://www.opengis.net/def/crs/EPSG/0/28992
+De beschrijving van de respectivelijke EPSG codes zijn te vinden onder de url's
+met het format: "http://www.opengis.net/def/crs/EPSG/0/""epsgcode".
+Bijvoorbeeld: http://www.opengis.net/def/crs/EPSG/0/28992
 
 **gml:id:** Voor implementatie in GML zijn er aanvullende specificaties als het
 gaat om het invullen van een gml:id attribuut. Dit gml:id attribuut heeft geen
@@ -46,8 +53,9 @@ informatiewaarde maar is nodig om interne en externe referenties te realiseren
 voor gebruik binnen het gml formaat. Voor de GML 3.2.1 was dit een verplicht
 element maar voor GML 3.2.2 is dit optioneel.
 
-Indien de optionele gml:id wordt toegepast dient deze globaal uniek te zijn en mag de waarde conform de gml specificaties alleen met een letter of een underscore beginnen.
-
+Indien de optionele gml:id wordt toegepast dient deze globaal uniek te zijn en
+mag de waarde conform de gml specificaties alleen met een letter of een
+underscore beginnen.
 
 Nauwkeurigheid van coördinaten.
 -------------------------------
