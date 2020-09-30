@@ -40,13 +40,13 @@ Invulinstructie:
 
 De beschrijving van de respectivelijke EPSG codes zijn te vinden onder de url's met het format: "ht<span>tp://</span>ww<span>w</span>.opengis.net/def/crs/EPSG/0/""epsgcode". Bijvoorbeeld: http://www.opengis.net/def/crs/EPSG/0/28992
 
-**GML:id:** Voor implementatie in GML zijn er aanvullende specificaties als het
-gaat om het invullen van de &lt;gml:id&gt;. De &lt;gml:id&gt; heeft geen
+**gml:id:** Voor implementatie in GML zijn er aanvullende specificaties als het
+gaat om het invullen van een gml:id attribuut. Dit gml:id attribuut heeft geen
 informatiewaarde maar is nodig om interne en externe referenties te realiseren
-*voor gebruik binnen het gml formaat*. Voor de GML 3.2.1 was dit een verplicht
+voor gebruik binnen het gml formaat. Voor de GML 3.2.1 was dit een verplicht
 element maar voor GML 3.2.2 is dit optioneel.
 
-**Invulinstructie:** Indien de optionele gml:id wordt toegepast dient deze globaal uniek te zijn en mag de waarde conform de gml specificaties alleen met een letter of een underscore beginnen.
+Indien de optionele gml:id wordt toegepast dient deze globaal uniek te zijn en mag de waarde conform de gml specificaties alleen met een letter of een underscore beginnen.
 
 
 Nauwkeurigheid van coördinaten.
@@ -61,8 +61,8 @@ coördinaten af te ronden op 1 millimeter of het equivalent daarvan in graden.
 
 **Aanbeveling:**
 
-Coordinaten opgenomen bij een geometrie worden standaard uitgewisseld met een
-getalsnauwkeurigheid van 1 mm of het equivalent daarvan in graden. Voor RD,NAP
+Coördinaten opgenomen bij een geometrie worden standaard uitgewisseld met een
+getalsnauwkeurigheid van 1 mm of het equivalent daarvan in graden. Voor RD, NAP
 en ETRS89 komt dat overeen met de volgende nauwkeurigheden:
 
 RD in meters 3 decimalen (1 mm);  
