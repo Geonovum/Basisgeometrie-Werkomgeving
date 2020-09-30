@@ -16,7 +16,7 @@ De volgende encodingformaten zijn beschikbaar:
 ### GML
 
 Beschikbaar GML applicatieschema Basisgeometrie.xsd gepubliceerd op:
-https://register.geostandaarden.nl/gmlapplicatieschema/basisgeometrie/
+https://register.geostandaarden.nl/gmlapplicatieschema/basisgeometrie/1.0.0/basisgeometrie.xsd
 
 **Nadere specificaties:**
 
