@@ -24,7 +24,7 @@ https://register.geostandaarden.nl/gmlapplicatieschema/basisgeometrie/1.0.0/basi
 Simple features profile 0 is gekozen omdat de inhoud van dit model geen
 constructies heeft die complexer zijn dan SF-0. Voor geometrietypen is er tussen
 SF-0, SF-1 en SF-2 geen verschil. Over de data gekoppeld aan dit geometriemodel
-wordt niets gezegd. Die hebben hun eigen comlexiteitseisen.
+wordt niets gezegd. Die hebben hun eigen complexiteitseisen.
 
 **Coördinaatrefrentiestelsel:** Het is verplicht om de srsName in te vullen op
 het hoogste niveau van een geometrie. Dat betekent dat van een samengestelde
