@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2022-12-23 14:13:54">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+			<XMI.exporterID>1554</XMI.exporterID>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_9F784D3A_6DFE_4746_A8D8_6C92E45954DD">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="Basisgeometrie" xmi.id="EAPK_9F784D3A_6DFE_4746_A8D8_6C92E45954DD" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype xmi.idref="EAID_E7F648F2_B922_4ece_A6CD_51B06589B37B"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_25951D50_2752_4e17_8C7A_FEF70F88F783"/>
+						<UML:TaggedValue tag="created" value="2019-10-24 10:21:49"/>
+						<UML:TaggedValue tag="modified" value="2019-10-24 10:22:30"/>
+						<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="packageFlags" value="CRC=0;"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="p.janssen"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="stereotype" value="Informatiemodel"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+						<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={F6EF24E4-5EDC-4cdd-AE29-87AFA89FA403}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Informatiemodel;GUID={E7F648F2-B922-4ece-A6CD-51B06589B37B};@ENDSTEREO;$DES;$CLT={9F784D3A-6DFE-4746-A8D8-6C92E45954DD}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_9F784D3A_6DFE_4746_A8D8_6C92E45954DD_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Informatiemodel domein B" xmi.id="EAID_1624EEA9_B50B_49d4_BD4E_4B050303A689" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_9F784D3A_6DFE_4746_A8D8_6C92E45954DD"/>
+										<UML:TaggedValue tag="date_created" value="2019-10-24 14:59:17"/>
+										<UML:TaggedValue tag="date_modified" value="2019-10-24 15:15:50"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_1624EEA9_B50B_49d4_BD4E_4B050303A689"/>
+										<UML:TaggedValue tag="package_name" value="Basisgeometrie"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="p.janssen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="13"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Basisgeometrie" xmi.id="EAID_4EB657E9_15D0_4084_B1D4_A02AEA65BEDF" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Domein"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_9F784D3A_6DFE_4746_A8D8_6C92E45954DD"/>
+										<UML:TaggedValue tag="date_created" value="2019-10-24 10:37:22"/>
+										<UML:TaggedValue tag="date_modified" value="2019-10-24 10:38:12"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_4EB657E9_15D0_4084_B1D4_A02AEA65BEDF"/>
+										<UML:TaggedValue tag="package_name" value="Basisgeometrie"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="p.janssen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Domein"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="11"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={80ACA23B-E9FF-4548-9C1A-328D3370100D}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Domein;GUID={B4DE979B-479D-40ac-A94D-70437DAFD8C5};@ENDSTEREO;$DES;$CLT={4EB657E9-15D0-4084-B1D4-A02AEA65BEDF}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Informatiemodel domein A" xmi.id="EAID_53381370_E2F9_46f9_8D8B_2C0D13012C8C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_9F784D3A_6DFE_4746_A8D8_6C92E45954DD"/>
+										<UML:TaggedValue tag="date_created" value="2019-10-24 14:53:08"/>
+										<UML:TaggedValue tag="date_modified" value="2019-10-24 15:15:27"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_53381370_E2F9_46f9_8D8B_2C0D13012C8C"/>
+										<UML:TaggedValue tag="package_name" value="Basisgeometrie"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="p.janssen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="12"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Voorbeeld" xmi.id="EAID_69498770_629C_4dc7_8F11_0291410D9943" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_9F784D3A_6DFE_4746_A8D8_6C92E45954DD"/>
+										<UML:TaggedValue tag="date_created" value="2019-10-24 15:09:18"/>
+										<UML:TaggedValue tag="date_modified" value="2019-10-24 15:09:23"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_69498770_629C_4dc7_8F11_0291410D9943"/>
+										<UML:TaggedValue tag="package_name" value="Basisgeometrie"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="p.janssen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Package name="Basisgeometrie" xmi.id="EAPK_4EB657E9_15D0_4084_B1D4_A02AEA65BEDF" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype xmi.idref="EAID_B4DE979B_479D_40ac_A94D_70437DAFD8C5"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_9F784D3A_6DFE_4746_A8D8_6C92E45954DD"/>
+								<UML:TaggedValue tag="created" value="2019-10-24 10:37:22"/>
+								<UML:TaggedValue tag="modified" value="2019-10-24 10:38:12"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="p.janssen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="stereotype" value="Domein"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Class name="Geometrie" xmi.id="EAID_9B3A4C4E_36C7_43f3_BC9B_6A4D6C0B0144" visibility="public" namespace="EAPK_4EB657E9_15D0_4084_B1D4_A02AEA65BEDF" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Objecttype"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Geometrie is het object dat de geometrie bevat: Geometrie is het object dat de geometrie bevat: De geometrische bepaling van een locatie door middel van coördinaten.&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_4EB657E9_15D0_4084_B1D4_A02AEA65BEDF"/>
+										<UML:TaggedValue tag="date_created" value="2019-10-24 15:02:58"/>
+										<UML:TaggedValue tag="date_modified" value="2019-10-24 16:50:30"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Basisgeometrie"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="p.janssen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="product_name" value="Java"/>
+										<UML:TaggedValue tag="stereotype" value="Objecttype"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="96"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={EC9EBB20-C574-4380-9F2E-BFC625734039}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Objecttype;GUID={64313486-A90F-48e4-8C72-9EDD12C943E9};FQName=MIM::Objecttype;@ENDSTEREO;$DES;$CLT={9B3A4C4E-36C7-43f3-BC9B-6A4D6C0B0144}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Classifier.feature>
+										<UML:Attribute name="id" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+											<UML:Attribute.initialValue>
+												<UML:Expression/>
+											</UML:Attribute.initialValue>
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="EAID_2C3F1533_2281_4567_9990_01DCEE6661C8"/>
+											</UML:StructuralFeature.type>
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Attribuutsoort"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="type" value="CharacterString"/>
+												<UML:TaggedValue tag="containment" value="Not Specified"/>
+												<UML:TaggedValue tag="ordered" value="0"/>
+												<UML:TaggedValue tag="static" value="0"/>
+												<UML:TaggedValue tag="stereotype" value="Attribuutsoort"/>
+												<UML:TaggedValue tag="collection" value="false"/>
+												<UML:TaggedValue tag="position" value="0"/>
+												<UML:TaggedValue tag="lowerBound" value="1"/>
+												<UML:TaggedValue tag="upperBound" value="1"/>
+												<UML:TaggedValue tag="duplicates" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{55CDB015-0662-423e-BDC1-7A5B776BE2BF}"/>
+												<UML:TaggedValue tag="ea_localid" value="65"/>
+												<UML:TaggedValue tag="styleex" value="volatile=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={8092525E-9DB4-4dda-A320-F5332C12B07D}$XID;$NAM=CustomProperties$NAM;$TYP=attribute property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=isID@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=1@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={55CDB015-0662-423e-BDC1-7A5B776BE2BF}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={E1EBCD84-373F-4962-B1F0-84A0F8598D40}$XID;$NAM=Stereotypes$NAM;$TYP=attribute property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Attribuutsoort;GUID={CA01EFD1-52FA-45ea-A198-785EB9E288A6};FQName=MIM::Attribuutsoort;@ENDSTEREO;$DES;$CLT={55CDB015-0662-423e-BDC1-7A5B776BE2BF}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+												<UML:TaggedValue tag="Herkomst" xmi.id="EAID_6B33862D_45B3_a345_BA63_F5AFD34C5105">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="Description: De registratie of het informatiemodel waaraan het informatie-element ontleend is dan wel de eigen organisatie indien het door de eigen organisatie toegevoegd is.&#xA;"/>
+													</XMI.extension>
+												</UML:TaggedValue>
+												<UML:TaggedValue tag="Herkomst definitie" xmi.id="EAID_1FAA1D3E_7C44_9b7c_BDBA_62729E21521A">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="Description: De registratie of het informatiemodel waaruit de definitie is overgenomen dan wel een aanduiding die aangeeft uit welke bronnen de definitie is samengesteld.&#xA;"/>
+													</XMI.extension>
+												</UML:TaggedValue>
+												<UML:TaggedValue tag="Datum opname" xmi.id="EAID_FB3F1EDB_3161_ef31_8DA2_775DA35D94BB">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="Description: De datum waarop het informatie-element is opgenomen in het informatiemodel.&#xA;"/>
+													</XMI.extension>
+												</UML:TaggedValue>
+												<UML:TaggedValue tag="Lengte" xmi.id="EAID_034EE5FF_0C05_9d0c_ADF0_176BE5C5623A">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="Description: De aanduiding van de lengte van een gegeven.&#xA;"/>
+													</XMI.extension>
+												</UML:TaggedValue>
+												<UML:TaggedValue tag="Patroon" value="&lt;memo&gt;" xmi.id="EAID_98327E03_64C9_4564_A351_DD0DDD991EE8">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur."/>
+													</XMI.extension>
+												</UML:TaggedValue>
+												<UML:TaggedValue tag="Formeel patroon" xmi.id="EAID_69EB40AD_8D73_c38d_86F3_64EC2B24691E">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="Description: Zoals patroon, formeel vastgelegd (met een reguliere expressie), uitgedrukt in een formele taal die door de computer wordt herkend.&#xA;"/>
+													</XMI.extension>
+												</UML:TaggedValue>
+												<UML:TaggedValue tag="Indicatie materiële historie" xmi.id="EAID_8F70DA6F_38F5_1138_89E3_891F77C217B8">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="Values: Ja,Nee,Zie groep&#xA;Description: Indicatie of de materiële historie van dit informatie-element te bevragen is.&#xA;"/>
+													</XMI.extension>
+												</UML:TaggedValue>
+												<UML:TaggedValue tag="Indicatie formele historie" xmi.id="EAID_D0DCC9FB_CF01_a7cf_BC7F_75B8BC9D9A84">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="Values: Ja,Nee,Zie groep&#xA;Description: Indicatie of de formele historie van dit informatie-element te bevragen is.&#xA;"/>
+													</XMI.extension>
+												</UML:TaggedValue>
+												<UML:TaggedValue tag="Locatie" xmi.id="EAID_83B4E541_CC07_c7cc_9E80_61DE7718880B">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="Description: Als het type van het attribuutsoort een waardenlijst is, dan wordt hier de locatie waar deze te vinden is opgegeven.&#xA;"/>
+													</XMI.extension>
+												</UML:TaggedValue>
+												<UML:TaggedValue tag="Authentiek" xmi.id="EAID_0BFEBE52_7758_5c77_BB60_5CDC409CC450">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="Values: Authentiek,Basisgegeven,Landelijk kerngegeven,Gemeentelijk kerngegeven,Overig&#xA;Description: Aanduiding of het een authentiek gegeven betreft.&#xA;"/>
+													</XMI.extension>
+												</UML:TaggedValue>
+												<UML:TaggedValue tag="Toelichting" value="&lt;memo&gt;" xmi.id="EAID_50A2721A_4BE0_b74b_AF41_D2A31E4D0E3A">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="Een inhoudelijke toelichting op de toepassing van het informatie-element."/>
+													</XMI.extension>
+												</UML:TaggedValue>
+												<UML:TaggedValue tag="Mogelijk geen waarde" value="Nee" xmi.id="EAID_BE7DA005_D88B_42d8_B16E_7B6696FD6792">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="Values: Ja,Nee&#xA;Default: Nee&#xA;Description: Aanduiding dat dit informatie-element geen waarde kan bevatten.&#xA;"/>
+													</XMI.extension>
+												</UML:TaggedValue>
+											</UML:ModelElement.taggedValue>
+										</UML:Attribute>
+										<UML:Attribute name="geometrie" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+											<UML:Attribute.initialValue>
+												<UML:Expression/>
+											</UML:Attribute.initialValue>
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="EAID_2DB57DC9_0D14_4835_92AD_28F39FAE2EBA"/>
+											</UML:StructuralFeature.type>
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Attribuutsoort"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="type" value="GM_Object"/>
+												<UML:TaggedValue tag="containment" value="Not Specified"/>
+												<UML:TaggedValue tag="ordered" value="0"/>
+												<UML:TaggedValue tag="static" value="0"/>
+												<UML:TaggedValue tag="stereotype" value="Attribuutsoort"/>
+												<UML:TaggedValue tag="collection" value="false"/>
+												<UML:TaggedValue tag="position" value="1"/>
+												<UML:TaggedValue tag="lowerBound" value="1"/>
+												<UML:TaggedValue tag="upperBound" value="1"/>
+												<UML:TaggedValue tag="duplicates" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{B67D5ACB-D0E6-422e-A2B1-F5DEDF676F42}"/>
+												<UML:TaggedValue tag="ea_localid" value="66"/>
+												<UML:TaggedValue tag="styleex" value="volatile=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4FB69FAA-ED76-4ec3-B7C2-08A14CAF3611}$XID;$NAM=Stereotypes$NAM;$TYP=attribute property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Attribuutsoort;GUID={CA01EFD1-52FA-45ea-A198-785EB9E288A6};FQName=MIM::Attribuutsoort;@ENDSTEREO;$DES;$CLT={B67D5ACB-D0E6-422e-A2B1-F5DEDF676F42}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+												<UML:TaggedValue tag="Herkomst" xmi.id="EAID_6B33862D_45B3_a345_989C_B77398AABF3A">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="Description: De registratie of het informatiemodel waaraan het informatie-element ontleend is dan wel de eigen organisatie indien het door de eigen organisatie toegevoegd is.&#xA;"/>
+													</XMI.extension>
+												</UML:TaggedValue>
+												<UML:TaggedValue tag="Herkomst definitie" xmi.id="EAID_1FAA1D3E_7C44_9b7c_94D5_D1582491C33E">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="Description: De registratie of het informatiemodel waaruit de definitie is overgenomen dan wel een aanduiding die aangeeft uit welke bronnen de definitie is samengesteld.&#xA;"/>
+													</XMI.extension>
+												</UML:TaggedValue>
+												<UML:TaggedValue tag="Datum opname" xmi.id="EAID_FB3F1EDB_3161_ef31_B2F3_FDB11E708DEB">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="Description: De datum waarop het informatie-element is opgenomen in het informatiemodel.&#xA;"/>
+													</XMI.extension>
+												</UML:TaggedValue>
+												<UML:TaggedValue tag="Lengte" xmi.id="EAID_034EE5FF_0C05_9d0c_8149_5F6AE584AB03">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="Description: De aanduiding van de lengte van een gegeven.&#xA;"/>
+													</XMI.extension>
+												</UML:TaggedValue>
+												<UML:TaggedValue tag="Patroon" value="&lt;memo&gt;" xmi.id="EAID_98327E03_64C9_4564_B1CB_CD6C088EF98A">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur."/>
+													</XMI.extension>
+												</UML:TaggedValue>
+												<UML:TaggedValue tag="Formeel patroon" xmi.id="EAID_69EB40AD_8D73_c38d_9E6B_CD07A5DDAC1C">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="Description: Zoals patroon, formeel vastgelegd (met een reguliere expressie), uitgedrukt in een formele taal die door de computer wordt herkend.&#xA;"/>
+													</XMI.extension>
+												</UML:TaggedValue>
+												<UML:TaggedValue tag="Indicatie materiële historie" xmi.id="EAID_8F70DA6F_38F5_1138_A2A7_F30A6421E93E">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="Values: Ja,Nee,Zie groep&#xA;Description: Indicatie of de materiële historie van dit informatie-element te bevragen is.&#xA;"/>
+													</XMI.extension>
+												</UML:TaggedValue>
+												<UML:TaggedValue tag="Indicatie formele historie" xmi.id="EAID_D0DCC9FB_CF01_a7cf_8458_DC8B38CBAD3F">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="Values: Ja,Nee,Zie groep&#xA;Description: Indicatie of de formele historie van dit informatie-element te bevragen is.&#xA;"/>
+													</XMI.extension>
+												</UML:TaggedValue>
+												<UML:TaggedValue tag="Locatie" xmi.id="EAID_83B4E541_CC07_c7cc_8525_81C584C16C61">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="Description: Als het type van het attribuutsoort een waardenlijst is, dan wordt hier de locatie waar deze te vinden is opgegeven.&#xA;"/>
+													</XMI.extension>
+												</UML:TaggedValue>
+												<UML:TaggedValue tag="Authentiek" xmi.id="EAID_0BFEBE52_7758_5c77_9E22_03B43977EB80">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="Values: Authentiek,Basisgegeven,Landelijk kerngegeven,Gemeentelijk kerngegeven,Overig&#xA;Description: Aanduiding of het een authentiek gegeven betreft.&#xA;"/>
+													</XMI.extension>
+												</UML:TaggedValue>
+												<UML:TaggedValue tag="Toelichting" value="&lt;memo&gt;" xmi.id="EAID_50A2721A_4BE0_b74b_B979_438186B973E3">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="Een inhoudelijke toelichting op de toepassing van het informatie-element."/>
+													</XMI.extension>
+												</UML:TaggedValue>
+												<UML:TaggedValue tag="Mogelijk geen waarde" value="Nee" xmi.id="EAID_BE7DA005_D88B_42d8_86CE_B5DFB00E5465">
+													<XMI.extension xmi.extender="Enterprise Architect 2.5">
+														<UML:Comment name="Values: Ja,Nee&#xA;Default: Nee&#xA;Description: Aanduiding dat dit informatie-element geen waarde kan bevatten.&#xA;"/>
+													</XMI.extension>
+												</UML:TaggedValue>
+											</UML:ModelElement.taggedValue>
+										</UML:Attribute>
+									</UML:Classifier.feature>
+								</UML:Class>
+								<UML:Association name="verwijst naar geometrie" xmi.id="EAID_61D084EE_50D3_4833_B29C_2D49526E0D6B" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Association"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="34"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Locatie"/>
+										<UML:TaggedValue tag="ea_targetName" value="Geometrie"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="98"/>
+										<UML:TaggedValue tag="ea_targetID" value="96"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;"/>
+										<UML:TaggedValue tag="mt" value="verwijst naar geometrie"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_14DAF237_DEAE_44c2_8BCD_25E2E2FC8CA5">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_9B3A4C4E_36C7_43f3_BC9B_6A4D6C0B0144">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Association name="verwijst naar geometrie" xmi.id="EAID_DBB90F19_B3E9_4be7_A5CE_1302A0C058C4" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Association"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="35"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Locatie"/>
+										<UML:TaggedValue tag="ea_targetName" value="Geometrie"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="93"/>
+										<UML:TaggedValue tag="ea_targetID" value="96"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
+										<UML:TaggedValue tag="mt" value="verwijst naar geometrie"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_C5A113C6_32D6_4b0d_ACEB_95FC14E10104">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_9B3A4C4E_36C7_43f3_BC9B_6A4D6C0B0144">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Informatiemodel domein A" xmi.id="EAPK_53381370_E2F9_46f9_8D8B_2C0D13012C8C" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_9F784D3A_6DFE_4746_A8D8_6C92E45954DD"/>
+								<UML:TaggedValue tag="created" value="2019-10-24 14:53:08"/>
+								<UML:TaggedValue tag="modified" value="2019-10-24 15:15:27"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="p.janssen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Class name="Locatie" xmi.id="EAID_C5A113C6_32D6_4b0d_ACEB_95FC14E10104" visibility="public" namespace="EAPK_53381370_E2F9_46f9_8D8B_2C0D13012C8C" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Objecttype"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_53381370_E2F9_46f9_8D8B_2C0D13012C8C"/>
+										<UML:TaggedValue tag="date_created" value="2019-10-24 14:53:25"/>
+										<UML:TaggedValue tag="date_modified" value="2019-10-24 15:14:07"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Informatiemodel domein A"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="p.janssen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="product_name" value="Java"/>
+										<UML:TaggedValue tag="stereotype" value="Objecttype"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="93"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=14480885;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={9500A760-44C9-49c2-9704-AE0196CE8B6C}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Objecttype;GUID={64313486-A90F-48e4-8C72-9EDD12C943E9};FQName=MIM::Objecttype;@ENDSTEREO;$DES;$CLT={C5A113C6-32D6-4b0d-ACEB-95FC14E10104}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Informatiemodel domein B" xmi.id="EAPK_1624EEA9_B50B_49d4_BD4E_4B050303A689" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_9F784D3A_6DFE_4746_A8D8_6C92E45954DD"/>
+								<UML:TaggedValue tag="created" value="2019-10-24 14:59:17"/>
+								<UML:TaggedValue tag="modified" value="2019-10-24 15:15:50"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="p.janssen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Class name="Locatie" xmi.id="EAID_14DAF237_DEAE_44c2_8BCD_25E2E2FC8CA5" visibility="public" namespace="EAPK_1624EEA9_B50B_49d4_BD4E_4B050303A689" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Objecttype"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_1624EEA9_B50B_49d4_BD4E_4B050303A689"/>
+										<UML:TaggedValue tag="date_created" value="2019-10-24 15:11:48"/>
+										<UML:TaggedValue tag="date_modified" value="2019-10-24 15:14:23"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Informatiemodel domein B"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="p.janssen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Objecttype"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="98"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=10025880;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={F58ADC11-C30E-4d05-8592-360DD20D403C}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Objecttype;GUID={64313486-A90F-48e4-8C72-9EDD12C943E9};FQName=MIM::Objecttype;@ENDSTEREO;$DES;$CLT={14DAF237-DEAE-44c2-8BCD-25E2E2FC8CA5}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Voorbeeld" xmi.id="EAPK_69498770_629C_4dc7_8F11_0291410D9943" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_9F784D3A_6DFE_4746_A8D8_6C92E45954DD"/>
+								<UML:TaggedValue tag="created" value="2019-10-24 15:09:18"/>
+								<UML:TaggedValue tag="modified" value="2019-10-24 15:09:18"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="p.janssen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Collaboration xmi.id="EAID_69498770_629C_4dc7_8F11_0291410D9943_Collaboration" name="Collaborations">
+									<UML:Namespace.ownedElement>
+										<UML:ClassifierRole name="Informatiemodel Domein A" xmi.id="EAID_60F77BAE_72EE_4c5c_BF19_DE63E5DBE988" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_69498770_629C_4dc7_8F11_0291410D9943"/>
+												<UML:TaggedValue tag="date_created" value="2019-10-24 15:17:19"/>
+												<UML:TaggedValue tag="date_modified" value="2019-10-24 15:18:21"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Voorbeeld"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="p.janssen"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="99"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=15134970;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Informatiemodel Domein B" xmi.id="EAID_7745DC18_9130_4a37_8D11_4EF40FB21BB7" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_69498770_629C_4dc7_8F11_0291410D9943"/>
+												<UML:TaggedValue tag="date_created" value="2019-10-24 15:18:33"/>
+												<UML:TaggedValue tag="date_modified" value="2020-03-31 11:35:43"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Voorbeeld"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="p.janssen"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="100"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+									</UML:Namespace.ownedElement>
+									<UML:Collaboration.interaction/>
+								</UML:Collaboration>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+				<UML:Stereotype xmi.id="EAID_E7F648F2_B922_4ece_A6CD_51B06589B37B" name="Informatiemodel" isRoot="false" isLeaf="false" isAbstract="false">
+					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
+				</UML:Stereotype>
+				<UML:Stereotype xmi.id="EAID_B4DE979B_479D_40ac_A94D_70437DAFD8C5" name="Domein" isRoot="false" isLeaf="false" isAbstract="false">
+					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
+				</UML:Stereotype>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:TaggedValue tag="Datum opname" xmi.id="EAID_FB3F1EDB_51FF_2d51_B734_9123E7EC9232" value="#NOTES#Description: De datum waarop het informatie-element is opgenomen in het informatiemodel.&#xA;" modelElement="EAID_9B3A4C4E_36C7_43f3_BC9B_6A4D6C0B0144"/>
+		<UML:TaggedValue tag="Herkomst" xmi.id="EAID_6B33862D_C751_5dc7_AD2A_541464F522E8" value="#NOTES#Description: De registratie of het informatiemodel waaraan het informatie-element ontleend is dan wel de eigen organisatie indien het door de eigen organisatie toegevoegd is.&#xA;" modelElement="EAID_9B3A4C4E_36C7_43f3_BC9B_6A4D6C0B0144"/>
+		<UML:TaggedValue tag="Herkomst definitie" xmi.id="EAID_1FAA1D3E_1B62_631b_80E8_0F408FF581F8" value="#NOTES#Description: De registratie of het informatiemodel waaruit de definitie is overgenomen dan wel een aanduiding die aangeeft uit welke bronnen de definitie is samengesteld.&#xA;" modelElement="EAID_9B3A4C4E_36C7_43f3_BC9B_6A4D6C0B0144"/>
+		<UML:TaggedValue tag="Kwaliteit" xmi.id="EAID_B108BD8E_2332_7b23_94B4_EAAB4F32D4F0" value="#NOTES#Description: Voor objecttypen die deel uitmaken van een registratie betreft dit de waarborgen voor de juistheid van de in de registratie opgenomen objecten van het desbetreffende type.&#xA;" modelElement="EAID_9B3A4C4E_36C7_43f3_BC9B_6A4D6C0B0144"/>
+		<UML:TaggedValue tag="Populatie" xmi.id="EAID_2D3C6693_CC37_aecc_A966_7FDD9870BCB0" value="&lt;memo&gt;#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn." modelElement="EAID_9B3A4C4E_36C7_43f3_BC9B_6A4D6C0B0144"/>
+		<UML:TaggedValue tag="Toelichting" xmi.id="EAID_50A2721A_D0BE_44d0_88DB_5DE556295895" value="&lt;memo&gt;#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element." modelElement="EAID_9B3A4C4E_36C7_43f3_BC9B_6A4D6C0B0144"/>
+		<UML:Diagram name="Basisgeometrie" xmi.id="EAID_CC01880C_1C56_4f82_B95B_255EEFD4EE4D" diagramType="ClassDiagram" owner="EAPK_4EB657E9_15D0_4084_B1D4_A02AEA65BEDF" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="p.janssen"/>
+				<UML:TaggedValue tag="created_date" value="2019-10-24 10:22:59"/>
+				<UML:TaggedValue tag="modified_date" value="2019-10-24 17:46:50"/>
+				<UML:TaggedValue tag="package" value="EAPK_4EB657E9_15D0_4084_B1D4_A02AEA65BEDF"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-13,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="12"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=819;DocSize.cy=1067;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=07E9B872;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=258;Top=211;Right=373;Bottom=300;" subject="EAID_9B3A4C4E_36C7_43f3_BC9B_6A4D6C0B0144" seqno="1" style="DUID=F0D6F665;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:TaggedValue tag="Datum opname" xmi.id="EAID_FB3F1EDB_51FF_2d51_9C0D_193CFE5D7779" value="#NOTES#Description: De datum waarop het informatie-element is opgenomen in het informatiemodel.&#xA;" modelElement="EAID_C5A113C6_32D6_4b0d_ACEB_95FC14E10104"/>
+		<UML:TaggedValue tag="Herkomst" xmi.id="EAID_6B33862D_C751_5dc7_957C_DB251B3FE6A5" value="#NOTES#Description: De registratie of het informatiemodel waaraan het informatie-element ontleend is dan wel de eigen organisatie indien het door de eigen organisatie toegevoegd is.&#xA;" modelElement="EAID_C5A113C6_32D6_4b0d_ACEB_95FC14E10104"/>
+		<UML:TaggedValue tag="Herkomst definitie" xmi.id="EAID_1FAA1D3E_1B62_631b_81BB_9A04F884F2DC" value="#NOTES#Description: De registratie of het informatiemodel waaruit de definitie is overgenomen dan wel een aanduiding die aangeeft uit welke bronnen de definitie is samengesteld.&#xA;" modelElement="EAID_C5A113C6_32D6_4b0d_ACEB_95FC14E10104"/>
+		<UML:TaggedValue tag="Kwaliteit" xmi.id="EAID_B108BD8E_2332_7b23_B11E_53DA72DC7B60" value="#NOTES#Description: Voor objecttypen die deel uitmaken van een registratie betreft dit de waarborgen voor de juistheid van de in de registratie opgenomen objecten van het desbetreffende type.&#xA;" modelElement="EAID_C5A113C6_32D6_4b0d_ACEB_95FC14E10104"/>
+		<UML:TaggedValue tag="Populatie" xmi.id="EAID_2D3C6693_CC37_aecc_8000_DCB021FE4B43" value="&lt;memo&gt;#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn." modelElement="EAID_C5A113C6_32D6_4b0d_ACEB_95FC14E10104"/>
+		<UML:TaggedValue tag="Toelichting" xmi.id="EAID_50A2721A_D0BE_44d0_9D8B_09CCBAE873B0" value="&lt;memo&gt;#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element." modelElement="EAID_C5A113C6_32D6_4b0d_ACEB_95FC14E10104"/>
+		<UML:TaggedValue tag="Datum opname" xmi.id="EAID_FB3F1EDB_51FF_2d51_BC1E_42ADDBDD7412" value="#NOTES#Description: De datum waarop het informatie-element is opgenomen in het informatiemodel.&#xA;" modelElement="EAID_14DAF237_DEAE_44c2_8BCD_25E2E2FC8CA5"/>
+		<UML:TaggedValue tag="Herkomst" xmi.id="EAID_6B33862D_C751_5dc7_8CB8_DA27850E20DC" value="#NOTES#Description: De registratie of het informatiemodel waaraan het informatie-element ontleend is dan wel de eigen organisatie indien het door de eigen organisatie toegevoegd is.&#xA;" modelElement="EAID_14DAF237_DEAE_44c2_8BCD_25E2E2FC8CA5"/>
+		<UML:TaggedValue tag="Herkomst definitie" xmi.id="EAID_1FAA1D3E_1B62_631b_9E26_2E3380BA65ED" value="#NOTES#Description: De registratie of het informatiemodel waaruit de definitie is overgenomen dan wel een aanduiding die aangeeft uit welke bronnen de definitie is samengesteld.&#xA;" modelElement="EAID_14DAF237_DEAE_44c2_8BCD_25E2E2FC8CA5"/>
+		<UML:TaggedValue tag="Kwaliteit" xmi.id="EAID_B108BD8E_2332_7b23_BC96_509A523362F4" value="#NOTES#Description: Voor objecttypen die deel uitmaken van een registratie betreft dit de waarborgen voor de juistheid van de in de registratie opgenomen objecten van het desbetreffende type.&#xA;" modelElement="EAID_14DAF237_DEAE_44c2_8BCD_25E2E2FC8CA5"/>
+		<UML:TaggedValue tag="Populatie" xmi.id="EAID_2D3C6693_CC37_aecc_BAD2_7A6785B37012" value="&lt;memo&gt;#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn." modelElement="EAID_14DAF237_DEAE_44c2_8BCD_25E2E2FC8CA5"/>
+		<UML:TaggedValue tag="Toelichting" xmi.id="EAID_50A2721A_D0BE_44d0_8093_5030E2BB13A4" value="&lt;memo&gt;#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element." modelElement="EAID_14DAF237_DEAE_44c2_8BCD_25E2E2FC8CA5"/>
+		<UML:Diagram name="Voorbeeld" xmi.id="EAID_D498112F_FACF_4160_AA75_B915CF489F1C" diagramType="ClassDiagram" owner="EAPK_69498770_629C_4dc7_8F11_0291410D9943" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="p.janssen"/>
+				<UML:TaggedValue tag="created_date" value="2019-10-24 00:00:00"/>
+				<UML:TaggedValue tag="modified_date" value="2020-03-31 11:48:19"/>
+				<UML:TaggedValue tag="package" value="EAPK_69498770_629C_4dc7_8F11_0291410D9943"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-13,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="13"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=2;PPgs.cy=1;DocSize.cx=819;DocSize.cy=1067;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=780242F7;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=443;Top=327;Right=579;Bottom=429;" subject="EAID_9B3A4C4E_36C7_43f3_BC9B_6A4D6C0B0144" seqno="1" style="DUID=AD1A7237;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=749;Top=224;Right=880;Bottom=294;" subject="EAID_14DAF237_DEAE_44c2_8BCD_25E2E2FC8CA5" seqno="2" style="DUID=0F05F045;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=160;Top=224;Right=291;Bottom=294;" subject="EAID_C5A113C6_32D6_4b0d_ACEB_95FC14E10104" seqno="3" style="DUID=CCEB5584;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=47;Top=159;Right=305;Bottom=305;" subject="EAID_60F77BAE_72EE_4c5c_BF19_DE63E5DBE988" seqno="4" style="DUID=6294E45D;"/>
+				<UML:DiagramElement geometry="Left=728;Top=159;Right=986;Bottom=305;" subject="EAID_7745DC18_9130_4a37_8D11_4EF40FB21BB7" seqno="5" style="DUID=BB1AE42D;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=CX=94:CY=13:OX=15:OY=5:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_DBB90F19_B3E9_4be7_A5CE_1302A0C058C4" style="Mode=3;EOID=AD1A7237;SOID=CCEB5584;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=CX=94:CY=13:OX=-11:OY=5:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_61D084EE_50D3_4833_B29C_2D49526E0D6B" style="Mode=3;EOID=AD1A7237;SOID=0F05F045;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAModel.paramSub/>
+		<EAStub xmi.id="EAID_2C3F1533_2281_4567_9990_01DCEE6661C8" name="CharacterString" UMLType="Class"/>
+		<EAStub xmi.id="EAID_2DB57DC9_0D14_4835_92AD_28F39FAE2EBA" name="GM_Object" UMLType="Class"/>
+	</XMI.extensions>
+</XMI>
