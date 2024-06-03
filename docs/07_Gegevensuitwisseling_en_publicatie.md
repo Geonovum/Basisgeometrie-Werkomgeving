@@ -1,15 +1,12 @@
-Gegevensuitwisseling en -publicatie
-===================================
+# Gegevensuitwisseling en -publicatie
 
-Leveringsmedium
----------------
+## Leveringsmedium
 
 Het medium waarmee de data worden geleverd is niet gedefinieerd op dit niveau.
 Het wordt bepaald door de toepassing van het informatiemodel dat de
 standaard Basisgeometrie toepast.
 
-Formaten (encodings)
---------------------
+## Formaten (encodings)
 
 De volgende encodingformaten zijn beschikbaar:
 
@@ -33,15 +30,11 @@ srsName verplicht is ingevuld.
 
 Invulinstructie:
 
--   RD stelsel (2D): srsName="urn:ogc:def:crs:EPSG::28992"
-
--   RD-NAP (3D): srsName="urn:ogc:def:crs:EPSG::7415"
-
--   ETRS89 (2D): srsName="urn:ogc:def:crs:EPSG::4258"
-
--   ETRS89 (3D): srsName="urn:ogc:def:crs:EPSG::4937"
-
--   ETRS89 + EVRF2007 (NAP)(3D): srsName="urn:ogc:def:crs:EPSG::7423"
+- RD stelsel (2D): srsName="urn:ogc:def:crs:EPSG::28992"
+- RD-NAP (3D): srsName="urn:ogc:def:crs:EPSG::7415"
+- ETRS89 (2D): srsName="urn:ogc:def:crs:EPSG::4258"
+- ETRS89 (3D): srsName="urn:ogc:def:crs:EPSG::4937"
+- ETRS89 + EVRF2007 (NAP)(3D): srsName="urn:ogc:def:crs:EPSG::7423"
 
 De beschrijving van de respectievelijke EPSG codes zijn te vinden onder de URL's
 met het format: "http://www.opengis.net/def/crs/EPSG/0/{epsgcode}".
@@ -57,8 +50,7 @@ Indien de optionele gml:id wordt toegepast dient deze globaal uniek te zijn en
 mag de waarde conform de GML specificaties alleen met een letter of een
 underscore beginnen.
 
-Nauwkeurigheid van coördinaten.
--------------------------------
+## Nauwkeurigheid van coördinaten
 
 De nauwkeurigheid van de coördinaten opgenomen bij een geometrie moet minstens
 de nauwkeurigheid realiseren die vermeld wordt in het informatiemodel of
@@ -81,5 +73,5 @@ ETRS89-hoogte in meters 3 decimalen (1 mm).
 
 Alles wat nauwkeuriger is wordt afgerond op deze nauwkeurigheid van 3 of 8
 decimalen. Afronding is volgens de volgende regel:  
-0.0015 -\> 0.002;  
-0.0014 -\> 0.001.
+0.0015 &rarr; 0.002;  
+0.0014 &rarr; 0.001.

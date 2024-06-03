@@ -1,22 +1,18 @@
-Informatiemodel
-===============
+# Informatiemodel
 
-inleiding
----------
+## inleiding
 
 In dit hoofdstuk wordt aan de hand van een UML-klassediagram en een
 objectcatalogus de informatieinhoud en -structuur van model Basisgeometrie
 beschreven.
 
-UML diagram
------------
+## UML diagram
 
 Het model Basisgeometrie bevat maar één objecttype: Geometrie.
 
 ![](media/Basisgeometrie.png)
 
-Objectcatalogus
----------------
+## Objectcatalogus
 
 ### Objecttype Geometrie
 
@@ -33,8 +29,7 @@ Objectcatalogus
 | **Waardetype** | CharacterString      |
 | **Herkomst**   | Basisgeometrie       |
 
-Voorbeeld
----------
+## Voorbeeld
 
 Het volgende UML diagram geeft een voorbeeld waarin twee domeinmodellen Domein A
 en Domein B van uit een objecttype Locatie verwijzen naar een gemeenschappelijk

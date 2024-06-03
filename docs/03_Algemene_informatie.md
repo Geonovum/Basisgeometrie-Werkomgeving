@@ -1,10 +1,8 @@
-Algemene informatie
-===================
+# Algemene informatie
 
-Informele beschrijving
-----------------------
+## Informele beschrijving
 
-Het model is ontwikkeld binnen de omgevingswet voor de ketenuitwisseling van
+Het model is ontwikkeld binnen de Omgevingswet voor de ketenuitwisseling van
 bevoegd gezag naar landelijke voorziening. Twee informatiemodellen, IMOW en
 IMOP, gebruiken daarbij gezamenlijke geometrieën.
 
@@ -17,10 +15,8 @@ klasse genaamd locatie door een associatie aan een geometrie worden gekoppeld. T
 opzichte van het refererende objecttype gedraagt de geometrie zich als een
 eigenschap.
 
-Normatieve referenties
-----------------------
+## Normatieve referenties
 
-Termen en definities
---------------------
+## Termen en definities
 
 GML: Geography Markup Language

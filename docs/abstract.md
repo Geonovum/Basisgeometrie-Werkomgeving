@@ -1,0 +1,1 @@
+Deze standaard beschrijft de specificaties van het model Basisgeometrie.

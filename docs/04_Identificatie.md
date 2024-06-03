@@ -2,7 +2,6 @@
 
 Dit hoofdstuk beschrijft de identificatie van de dataspecificatie. In onderstaande overzicht is de beschrijvende informatie opgenomen van de dataspecificatie.
 
-
 <table style="width: 100%" cellpadding="10" border="1">
 	<col width="25%">
 	<col width="75%">
