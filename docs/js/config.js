@@ -74,6 +74,7 @@ let respecConfig = {
     LangeLijnenAdvies: {
       id: "LangeLijnenAdvies",
       title: "Eenduidige transformatie van grenzen tussen ETRS89 en RD",
+      href: "https://geoforum.nl/uploads/default/original/2X/c/c0795baa683bf3845c866ae4c576a880455be02a.pdf",
       status: "Definitief",
       publisher: "Kadaster",
       date: "2018-05-14"

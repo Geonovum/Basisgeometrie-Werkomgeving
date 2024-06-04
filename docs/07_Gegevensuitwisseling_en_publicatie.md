@@ -76,7 +76,10 @@ decimalen. Afronding is volgens de volgende regel:
 
 ## Kaartproject en Lange lijnen
 
-In het document [[LangeLijnenAdvies]] wordt beschreven dat een rechte lijn in werkelijkheid  meestal geen rechte lijn in een kaart is, maar een lijn die licht krom loopt. Om ervoor te zorgen dat een grens in de kaart ongeacht de kaartprojectie met voldoende nauwkeurigheid eenduidig is, moeten lange lijnstukken van grenzen voorzien worden van tussenpunten. Hiervoor is de volgende aanbeveling uit het lange lijnen advies opgenomen.
+In het document [[LangeLijnenAdvies]] wordt beschreven dat een rechte lijn in werkelijkheid (de geodetische lijn) meestal geen rechte lijn in een kaart (een geprojecteerde lijn) is, maar een lijn die licht krom loopt. Om ervoor te zorgen dat een grens lijn in de kaart ongeacht de kaartprojectie met voldoende nauwkeurigheid eenduidig is zodat bij coördinaatransformatie grote geometrische en topologische verandering van de data te voorkomen worden, moeten lange lijnstukken voorzien worden van tussenpunten. Hiervoor is de volgende aanbeveling uit het lange lijnen advies opgenomen.
+
+Een rechte lijn in werkelijkheid is meestal geen rechte lijn in een kaart, maar een lijn die licht krom loopt. Om er voor te zorgen dat een begrenzing in de kaart -ongeacht de kaartprojectie- met voldoende nauwkeurigheid eenduidig is, heeft de NSGI hiervoor een langelijnenadvies geformuleerd [[LangeLijnenAdvies
+]] . In dit advies staat dat lange lijnsegmenten van grenzen voorzien moeten worden van synthetische tussenpunten om bij coördinaatransformatie grote geometrische en topologische verandering van de data te voorkomen. De afstand tussen deze tussenpunten is afhankelijk van de acceptabele afwijking en de locatie op aarde.
 
 **Aanbeveling:** Advies voor de maximale afstand voor tussenpunten bij verschillende waarden voor de acceptabele maximale afwijking van een lijn ten opzichte van de geodetische lijn, voor Europees Nederland inclusief EEZ.
 
