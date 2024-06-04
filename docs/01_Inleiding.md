@@ -1,6 +1,5 @@
 # Inleiding
 
-
 Dit model voor het gebruiken van een basisgeometrie is een specifieke toepassing voor het koppelen van geometrie aan een informatieobject.
 
 NEN 3610, het Basismodel geo-informatie, beschrijft een geo-object als

@@ -74,4 +74,17 @@ let respecConfig = {
           uri: "basisgeometrie.pdf",
       },
   ],
+
+  //-- localBiblio: lokale bibliografie, voor verwijzigingen
+  //-- NB: kijk eerst naar de beschikbare www.specref.org voor verwijziging 
+  localBiblio: 
+  {
+    LangeLijnenAdvies: {
+      id: "LangeLijnenAdvies",
+      title: "Eenduidige transformatie van grenzen tussen ETRS89 en RD",
+      status: "Definitief",
+      publisher: "Kadaster",
+      date: "2018-05-14"
+    },
+  },
 };

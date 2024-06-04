@@ -15,8 +15,6 @@ klasse genaamd locatie door een associatie aan een geometrie worden gekoppeld. T
 opzichte van het refererende objecttype gedraagt de geometrie zich als een
 eigenschap.
 
-## Normatieve referenties
-
 ## Termen en definities
 
-GML: Geography Markup Language
+<dfn>GML</dfn>: Geography Markup Language

@@ -12,7 +12,7 @@ De volgende encodingformaten zijn beschikbaar:
 
 ### GML
 
-Beschikbaar GML applicatieschema Basisgeometrie.xsd gepubliceerd op:
+Beschikbaar <a>GML</a> applicatieschema Basisgeometrie.xsd gepubliceerd op:
 https://register.geostandaarden.nl/gmlapplicatieschema/basisgeometrie/1.0.0/basisgeometrie.xsd
 
 **Nadere specificaties:**
@@ -59,19 +59,32 @@ standaard wordt opgeleverd groter. Deze decimalen hebben dan geen betekenis
 meer. Om te voorkomen dat er te grote databestanden ontstaan wordt aanbevolen de
 coördinaten af te ronden op 1 millimeter of het equivalent daarvan in graden.
 
-**Aanbeveling:**
-
-Coördinaten opgenomen bij een geometrie worden standaard uitgewisseld met een
+**Aanbeveling:** Coördinaten opgenomen bij een geometrie worden standaard uitgewisseld met een
 getalsnauwkeurigheid van 1 mm of het equivalent daarvan in graden. Voor RD, NAP
 en ETRS89 komt dat overeen met de volgende nauwkeurigheden:
 
-RD in meters 3 decimalen (1 mm);  
-NAP-hoogte in meters 3 decimalen (1 mm);  
-ETRS89-breedte in graden 8 decimalen (1,1 mm);  
-ETRS89-lengte in graden 8 decimalen (0,7 mm);  
-ETRS89-hoogte in meters 3 decimalen (1 mm).
+- RD in meters 3 decimalen (1 mm);  
+- NAP-hoogte in meters 3 decimalen (1 mm);  
+- ETRS89-breedte in graden 8 decimalen (1,1 mm);  
+- ETRS89-lengte in graden 8 decimalen (0,7 mm);  
+- ETRS89-hoogte in meters 3 decimalen (1 mm).
 
 Alles wat nauwkeuriger is wordt afgerond op deze nauwkeurigheid van 3 of 8
 decimalen. Afronding is volgens de volgende regel:  
 0.0015 &rarr; 0.002;  
 0.0014 &rarr; 0.001.
+
+## Coördinaat transformatie en Lange lijnen
+
+In het document [[LangeLijnenAdvies]] wordt beschreven dat een rechte lijn in werkelijkheid  meestal geen rechte lijn in een kaart is, maar een lijn die licht krom loopt. Om ervoor te zorgen dat een grens in de kaart ongeacht de kaartprojectie met voldoende nauwkeurigheid eenduidig is, moeten lange lijnstukken van grenzen voorzien worden van tussenpunten. Hiervoor is de volgende aanbeveling uit het lange lijnen advies opgenomen.
+
+**Aanbeveling:** Advies voor de maximale afstand voor tussenpunten bij verschillende waarden voor de acceptabele maximale afwijking van een lijn ten opzichte van de geodetische lijn, voor Europees Nederland inclusief EEZ.
+
+| Acceptabele afwijking | Advies lijnlengte |
+| --------------------- | ----------------- |
+| 1 mm                  | 200 m             |
+| 1 cm                  | 500 m             |
+| 1 dm                  | 2 km              |
+| 1 m                   | 5 km              |
+| 10 m                  | 20 km             |
+| 100 m                 | 50 km             |
