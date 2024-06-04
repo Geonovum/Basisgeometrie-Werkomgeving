@@ -17,4 +17,4 @@ eigenschap.
 
 ## Termen en definities
 
-<dfn>GML</dfn>: Geography Markup Language
+<dfn>GML</dfn> Geography Markup Language

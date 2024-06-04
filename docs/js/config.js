@@ -66,14 +66,6 @@ let respecConfig = {
   // TODO: Vul de github URL in.
   //neem hier de URL van de github repository op waar het respec document in staat
   github: "https://github.com/Geonovum/Basisgeometrie-werkversie",
-  // Create PDF and link to file in header (optional):
-  // TODO: Change the filename as preferred.
-  alternateFormats: [
-      {
-          label: "pdf",
-          uri: "basisgeometrie.pdf",
-      },
-  ],
 
   //-- localBiblio: lokale bibliografie, voor verwijzigingen
   //-- NB: kijk eerst naar de beschikbare www.specref.org voor verwijziging 

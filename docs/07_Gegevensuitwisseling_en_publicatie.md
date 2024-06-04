@@ -74,7 +74,7 @@ decimalen. Afronding is volgens de volgende regel:
 0.0015 &rarr; 0.002;  
 0.0014 &rarr; 0.001.
 
-## Coördinaat transformatie en Lange lijnen
+## Kaartproject en Lange lijnen
 
 In het document [[LangeLijnenAdvies]] wordt beschreven dat een rechte lijn in werkelijkheid  meestal geen rechte lijn in een kaart is, maar een lijn die licht krom loopt. Om ervoor te zorgen dat een grens in de kaart ongeacht de kaartprojectie met voldoende nauwkeurigheid eenduidig is, moeten lange lijnstukken van grenzen voorzien worden van tussenpunten. Hiervoor is de volgende aanbeveling uit het lange lijnen advies opgenomen.
 
