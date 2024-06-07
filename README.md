@@ -1,7 +1,5 @@
-Basisgeometrie werkomgeving
-==============
+# Basisgeometrie werkomgeving
 
-release versie v20190901
 
 Het model Basisgeometrie is ontwikkeld om geometrie als eigenschap te kunnen
 refereren vanuit een ander informatiemodel. Op die manier kunnen geometrieën
