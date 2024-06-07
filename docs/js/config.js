@@ -63,9 +63,8 @@ let respecConfig = {
         companyURL: "https://www.geonovum.nl",
       },
     ],
-  // TODO: Vul de github URL in.
   //neem hier de URL van de github repository op waar het respec document in staat
-  github: "https://github.com/Geonovum/Basisgeometrie-werkversie",
+  github: "https://github.com/Geonovum/Basisgeometrie-Werkomgeving",
 
   //-- localBiblio: lokale bibliografie, voor verwijzigingen
   //-- NB: kijk eerst naar de beschikbare www.specref.org voor verwijziging 
